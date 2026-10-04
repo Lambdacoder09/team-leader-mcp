@@ -1,0 +1,29 @@
+{
+  "name": "team-leader-mcp",
+  "version": "1.0.0",
+  "description": "Multi-agent Model Context Protocol (MCP) bridge connecting Antigravity as Team Leader with worker AIs (ChatGPT, Claude, Cursor, Aider).",
+  "main": "server.cjs",
+  "bin": {
+    "team-leader-mcp": "./server.cjs"
+  },
+  "scripts": {
+    "start": "node server.cjs",
+    "start:network": "node network-server.cjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "multi-agent",
+    "antigravity",
+    "chatgpt",
+    "claude",
+    "ai-team"
+  ],
+  "author": "Lambdacoder09",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

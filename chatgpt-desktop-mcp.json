@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "team-leader-bridge": {
+      "command": "node",
+      "args": [
+        "c:\\Users\\zayed\\OneDrive\\Desktop\\projects\\delivery app\\tools\\team-mcp\\server.cjs"
+      ]
+    }
+  }
+}
