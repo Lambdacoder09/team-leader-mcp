@@ -1,10 +1,17 @@
 {
-  "name": "team-leader-mcp",
+  "name": "@lambdacoder09/team-leader-mcp",
   "version": "1.0.0",
   "description": "Multi-agent Model Context Protocol (MCP) bridge connecting Antigravity as Team Leader with worker AIs (ChatGPT, Claude, Cursor, Aider).",
   "main": "server.cjs",
   "bin": {
     "team-leader-mcp": "./server.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lambdacoder09/team-leader-mcp.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "start": "node server.cjs",
