@@ -60,6 +60,8 @@ One AI acts as the **Team Leader / Architect** (assigning tasks, writing technic
 
 ## Getting Started
 
+For a copyable prompt that guides an AI through configuring this bridge in a project, see [Worker Setup Prompts](WORKER_SETUP_PROMPTS.md#option-0-set-up-this-bridge-in-a-project).
+
 ### 1. Installation
 
 ```bash
